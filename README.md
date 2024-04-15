@@ -6,15 +6,15 @@ These are codes and weights of the paper [Predicting Gradient is Better: Explori
 
 ## Dataset
 
-Dataset   | Size   | #Target | #Scene | Res.(m)     | Band | Polarization | Description              
+Dataset   | Size   | #Target | #Scene | Res(m)     | Band | Polarization | Description              
 :-----------------------------:|:------:|:---------:|:--------:|:------------:|:----:|:------------:|:--------------------------------------------:
  [MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR)                          | 28,499 | >4   | >6  | 1           | C    | Quad         | Ground and sea target detection dataset      
  [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset)                      | 39,729 | >1   | >4  | 3~25    | C    | Quad         | Ship detection dataset in complex scenes     
- SARSim                        | 21,168 | 7         | 3        | 0.3          | X    | Single       | Vehicle simulation dataset                   
- SAMPLE                        | 5,380  | 10        | 1        | 0.3          | X    | Single       | Vehicle simulation and measured~dataset      
- \textcolor{black}{MSTAR}      | 5,216  | 10        | 1        | 0.3          | X    | Single       | Fine-grained vehicle classification dataset  
- \textcolor{black}{FUSAR-Ship} | 9,830  | 10        | >5  | 1.1~1.7 | C    | Double       | Fine-grained ship classification dataset     
- \textcolor{black}{SAR-ACD}    | 2,537  | 6         | 3        | 1            | C    | Single       | Fine-grained aircraft classification dataset 
+ [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/)                 | 21,168 | 7         | 3        | 0.3          | X    | Single       | Vehicle simulation dataset                   
+ [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public)                        | 5,380  | 10        | 1        | 0.3          | X    | Single       | Vehicle simulation and measured~dataset      
+ MSTAR      | 5,216  | 10        | 1        | 0.3          | X    | Single       | Fine-grained vehicle classification dataset  
+ FUSAR-Ship | 9,830  | 10        | >5  | 1.1~1.7 | C    | Double       | Fine-grained ship classification dataset     
+ SAR-ACD    | 2,537  | 6         | 3        | 1            | C    | Single       | Fine-grained aircraft classification dataset 
 
 
 Google Drive:
