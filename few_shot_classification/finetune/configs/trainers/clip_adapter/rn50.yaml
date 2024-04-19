@@ -1,0 +1,31 @@
+DATALOADER:
+  TRAIN_X:
+    BATCH_SIZE: 32
+  TEST:
+    BATCH_SIZE: 100
+  NUM_WORKERS: 8
+
+INPUT:
+  SIZE: (224, 224)
+  INTERPOLATION: "bicubic"
+  PIXEL_MEAN: [0.14694904, 0.14694904, 0.14694904]
+  PIXEL_STD: [0.13213828, 0.13213828, 0.13213828]
+#  TRANSFORMS: ["random_resized_crop", "random_flip", "normalize"]
+#  RANDAUGMENT_N: 3
+  TRANSFORMS: ["random_flip", "normalize"]
+
+OPTIM:
+  NAME: "adam"
+  LR: 1e-3
+  MAX_EPOCH: 300
+  LR_SCHEDULER: "cosine"
+  WARMUP_EPOCH: 5
+  WARMUP_TYPE: "constant"
+  WARMUP_CONS_LR: 1e-5
+
+TRAIN:
+  PRINT_FREQ: 5
+
+MODEL:
+  BACKBONE:
+    NAME: "RN50"

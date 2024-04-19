@@ -1,8 +1,10 @@
 # SAR-JEPA: A Joint-Embedding Predictive Architecture for SAR ATR
 
-I'll release codes and weight as soon as I'm done other projects, no later than April of this year.
+These are codes and weights of the paper：
 
-These are codes and weights of the paper [Predicting Gradient is Better: Exploring Self-Supervised Learning for SAR ATR with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2311.15153):
+ [Predicting Gradient is Better: Exploring Self-Supervised Learning for SAR ATR with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2311.15153):
+
+百度网盘: 链接：https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8 提取码：jeq8
 
 ## Dataset
 
@@ -16,21 +18,52 @@ Dataset   | Size   | #Target | #Scene | Res(m)     | Band | Polarization | Descr
  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301) | 9,830  | 10        | >5  | 1.1~1.7 | C    | Double       | Fine-grained ship classification dataset     
  [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)    | 2,537  | 6         | 3        | 1            | C    | Single       | Fine-grained aircraft classification dataset 
 
-Google Drive:
-
-百度网盘: 链接：https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8 提取码：jeq8
 
 ## Pre-training
 
+Our code is based on [LoMaR](https://github.com/junchen14/LoMaR) with [MAE](https://github.com/facebookresearch/mae) and [MaskFeat](https://github.com/open-mmlab/mmselfsup/blob/0.x/configs/selfsup/maskfeat/README.md), and its enviroment is follow LoMaR.
 
+* This repo is based on [`timm==0.3.2`](https://github.com/rwightman/pytorch-image-models), for which a [fix](https://github.com/rwightman/pytorch-image-models/issues/420#issuecomment-776459842) is needed to work with PyTorch 1.8.1+.
+
+* The relative position encoding is modeled by following [iRPE](https://github.com/microsoft/Cream/tree/main/iRPE). To enable the iRPE with CUDA supported. Of curese, irpe can run without build.  
+
+```
+cd rpe_ops/
+python setup.py install --user
+
+```
+
+For pre-training with default setting
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3  python -m torch.distributed.launch --nproc_per_node=4 --master_port=25642  main_pretrain.py --data_path ${IMAGENET_DIR}
+```
+Our main changes are in the model_lomar.py
+```
+        self.sarfeature1 = GF(nbins=self.nbins,pool=self.cell_sz,kensize=5,
+                                  img_size=self.img_size,patch_size=self.patch_size)
+        self.sarfeature2 = GF(nbins=self.nbins,pool=self.cell_sz,kensize=9,
+                                  img_size=self.img_size,patch_size=self.patch_size)
+        self.sarfeature3 = GF(nbins=self.nbins,pool=self.cell_sz,kensize=13,
+                                  img_size=self.img_size,patch_size=self.patch_size)
+        self.sarfeature4 = GF(nbins=self.nbins,pool=self.cell_sz,kensize=17,
+                                  img_size=self.img_size,patch_size=self.patch_size)
+
+
+```
 ## Fine-tuning with pre-trained checkpoints
 
+Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). You may need to installate this and use our modified tools.py and transforms.py for SAR images. You can run MIM_finetune.sh and MIM_linear.sh.
 
-## Weights
-Lists
-
-Google Drive:
-百度网盘:
 
 ## Contact us
 If you have any questions, please contact us at lwj2150508321@sina.com
+
+```
+@article{li2023predicting,
+  title={Predicting Gradient is Better: Exploring Self-Supervised Learning for {SAR} {ATR} with a Joint-Embedding Predictive Architecture },
+  author={Li, Weijie and Wei, Yang and Liu, Tianpeng and Hou, Yuenan and Liu, Yongxiang and Liu, Li},
+  journal={arXiv preprint},
+  url={https://arxiv.org/abs/2311.15153},
+  year={2024}
+}
+```
