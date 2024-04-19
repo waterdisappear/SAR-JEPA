@@ -30,7 +30,6 @@ Our code is based on [LoMaR](https://github.com/junchen14/LoMaR) with [MAE](http
 ```
 cd rpe_ops/
 python setup.py install --user
-
 ```
 
 For pre-training with default setting
@@ -47,8 +46,6 @@ Our main changes are in the model_lomar.py
                                   img_size=self.img_size,patch_size=self.patch_size)
         self.sarfeature4 = GF(nbins=self.nbins,pool=self.cell_sz,kensize=17,
                                   img_size=self.img_size,patch_size=self.patch_size)
-
-
 ```
 ## Fine-tuning with pre-trained checkpoints
 
