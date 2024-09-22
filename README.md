@@ -1,6 +1,6 @@
 <h1 align="center"> Predicting Gradient is Better: Exploring Self-Supervised Learning for SAR ATR with a Joint-Embedding Predictive Architecture </h1> 
 
-<h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Tianpeng Liu (刘天鹏), Yuenan Hou (侯跃南), Yuxuan Li (李宇轩), Yongxiang (刘永祥), and Li Liu (刘丽) </em></h5>
+<h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Tianpeng Liu (刘天鹏), Yuenan Hou (侯跃南), Yuxuan Li (李宇轩), Yongxiang Liu (刘永祥), and Li Liu (刘丽) </em></h5>
 
 <p align="center">
 <a href="https://arxiv.org/abs/2311.15153"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
@@ -64,8 +64,14 @@ Our main changes are in the model_lomar.py
 Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). You may need to installate this and use our modified tools.py and transforms.py for SAR images. You can run MIM_finetune.sh and MIM_linear.sh.
 
 
-## Contact us
-If you have any questions, please contact us at lwj2150508321@sina.com
+## Acknowledgement
+
+Many thanks to the research [LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE)
+
+## Statement
+
+This project is strictly forbidden for any commercial purpose. Any questions please contact us at lwj2150508321@sina.com. 
+If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
 ```
 @article{li2023predicting,
