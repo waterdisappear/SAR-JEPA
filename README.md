@@ -1,4 +1,16 @@
-# SAR-JEPA: A Joint-Embedding Predictive Architecture for SAR ATR
+<h1 align="center"> Predicting Gradient is Better: Exploring Self-Supervised Learning for SAR ATR with a Joint-Embedding Predictive Architecture </h1> 
+
+<h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Tianpeng Liu (刘天鹏), Yuenan Hou (侯跃南), Yuxuan Li (李宇轩), Yongxiang (刘永祥), and Li Liu (刘丽) </em></h5>
+
+<p align="center">
+<a href="https://arxiv.org/abs/2311.15153"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
+</p>
+
+## Introduction
+
+In the process of being updated (2024.9.22~2024.9.30) to enhance readability and usefulness.
+
+正在更新中（2024.9.22~2024.9.30）以增强可读性和实用性
 
 These are codes and weights of the paper：
 
