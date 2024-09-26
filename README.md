@@ -89,6 +89,14 @@ Our main changes are in the [model_lomar.py](https://github.com/waterdisappear/S
 Here are the pre-training weights we obtained using different methods.
 
 以下是我们利用不同方法得到的预训练权重。
+:-----------------------------:|:------:|:---------:|:--------:|:------------:|:----:|:------------:|:--------------------------------------------:
+ [MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR)                          | 28,499 | >4   | >6  | 1           | C    | Quad         | Ground and sea target detection dataset      
+ [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset)                      | 39,729 | >1   | >4  | 3~25    | C    | Quad         | Ship detection dataset in complex scenes     
+ [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/)                 | 21,168 | 7         | 3        | 0.3          | X    | Single       | Vehicle simulation dataset                   
+ [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public)                        | 5,380  | 10        | 1        | 0.3          | X    | Single       | Vehicle simulation and measured~dataset      
+ [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar)      | 5,216  | 10        | 1        | 0.3          | X    | Single       | Fine-grained vehicle classification dataset  
+ [FUSAR-Ship](https://link.springer.com/article/10.1007/s11432-019-2772-5) | 9,830  | 10        | >5  | 1.1~1.7 | C    | Double       | Fine-grained ship classification dataset     
+ [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)    | 2,537  | 6         | 3        | 1            | C    | Single       | Fine-grained aircraft classification dataset 
 
 
 ## Fine-tuning with pre-trained checkpoints
