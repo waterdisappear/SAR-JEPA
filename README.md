@@ -57,8 +57,6 @@ MSTAR 设置沿用了我们之前的[论文](https://ieeexplore.ieee.org/documen
 FUSAR-Ship 数据集的设置遵循[论文](https://ieeexplore.ieee.org/abstract/document/9893301)。
 SAR-ACD 设置为随机切分作为训练集和测试集。
 
-
-https://ieeexplore.ieee.org/abstract/document/9893301
 ## Pre-training
 
 Our code is based on [LoMaR](https://github.com/junchen14/LoMaR) with [MAE](https://github.com/facebookresearch/mae) and [MaskFeat](https://github.com/open-mmlab/mmselfsup/blob/0.x/configs/selfsup/maskfeat/README.md), and its enviroment is follow LoMaR.
