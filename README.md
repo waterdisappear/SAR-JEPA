@@ -89,15 +89,14 @@ Our main changes are in the [model_lomar.py](https://github.com/waterdisappear/S
 Here are the pre-training weights we obtained using different methods.
 
 以下是我们利用不同方法得到的预训练权重。
-:-----------------------------:|:------:|:---------:|:--------:|:------------:|:----:|:------------:|:--------------------------------------------:
- [MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR)                          | 28,499 | >4   | >6  | 1           | C    | Quad         | Ground and sea target detection dataset      
- [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset)                      | 39,729 | >1   | >4  | 3~25    | C    | Quad         | Ship detection dataset in complex scenes     
- [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/)                 | 21,168 | 7         | 3        | 0.3          | X    | Single       | Vehicle simulation dataset                   
- [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public)                        | 5,380  | 10        | 1        | 0.3          | X    | Single       | Vehicle simulation and measured~dataset      
- [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar)      | 5,216  | 10        | 1        | 0.3          | X    | Single       | Fine-grained vehicle classification dataset  
- [FUSAR-Ship](https://link.springer.com/article/10.1007/s11432-019-2772-5) | 9,830  | 10        | >5  | 1.1~1.7 | C    | Double       | Fine-grained ship classification dataset     
- [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)    | 2,537  | 6         | 3        | 1            | C    | Single       | Fine-grained aircraft classification dataset 
 
+Method   | Downlaod   | Method   | Downlaod        
+:-----------------:|:-----------------:|:-----------------:|:-----------------:
+MAE | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FMAE&parentPath=%2F) | LoMaR | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FLoMaR&parentPath=%2F)
+I-JEPA | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2Fijepa&parentPath=%2F) | FG-MAE | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FFG-MAE&parentPath=%2F)
+LoMaR-SAR | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FLoMaR-SAR&parentPath=%2F) | low pass filter | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FLoMaR_low_pass_filter&parentPath=%2F)
+SAR HOG | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FSAR%20HOG&parentPath=%2F) | PGGA | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FPGGA&parentPath=%2F)
+SAR-JEPA (Gaussion keneral) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FSAR-JEPA_Gaussion%20keneral&parentPath=%2F) | SAR-JEPA | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FSAR-JEPA&parentPath=%2F)
 
 ## Fine-tuning with pre-trained checkpoints
 
