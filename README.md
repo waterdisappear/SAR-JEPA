@@ -90,6 +90,10 @@ Here are the pre-training weights we obtained using different methods.
 
 以下是我们利用不同方法得到的预训练权重。
 
+<p align="center"><font face="Time New Roman" size=2.></font></p>
+
+<div class="center">
+  
 Method   | Downlaod   | Method   | Downlaod        
 :-----------------:|:-----------------:|:-----------------:|:-----------------:
 [MAE](https://github.com/facebookresearch/mae) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FMAE&parentPath=%2F) | [LoMaR](https://github.com/junchen14/LoMaR) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FLoMaR&parentPath=%2F)
@@ -97,6 +101,8 @@ Method   | Downlaod   | Method   | Downlaod
 [LoMaR-SAR](https://www.sciencedirect.com/science/article/pii/S0924271624003514) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FLoMaR-SAR&parentPath=%2F) | [low pass filter](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FLoMaR_low_pass_filter&parentPath=%2F)
 [SAR HOG](https://www.mdpi.com/2072-4292/8/8/683) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FSAR%20HOG&parentPath=%2F) | [PGGA](https://ieeexplore.ieee.org/document/10035918) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FPGGA&parentPath=%2F)
 [SAR-JEPA (Gaussion keneral)](https://www.sciencedirect.com/science/article/pii/S0924271624003514) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FSAR-JEPA_Gaussion%20keneral&parentPath=%2F) | [SAR-JEPA](https://www.sciencedirect.com/science/article/pii/S0924271624003514) | [BaiduYun](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8#list/path=%2FSAR-JEPA%2Fweights%2FSAR-JEPA&parentPath=%2F)
+
+</div>
 
 ## Fine-tuning with pre-trained checkpoints
 
