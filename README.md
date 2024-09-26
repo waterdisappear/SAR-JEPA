@@ -87,13 +87,11 @@ Our main changes are in the [model_lomar.py](https://github.com/waterdisappear/S
 ```
 ## Fine-tuning with pre-trained checkpoints
 
-Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). You may need to installate this and use our modified tools.py and transforms.py in [zip](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/Dassl.pytorch.zip) for SAR images. You can run MIM_finetune.sh and MIM_linear.sh.
-
+Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). You need to install this and use our modified ''Dassl.pytorch\dassl\utils\tools.py'' and ''Dassl.pytorch\dassl\data\transforms\transforms.py'' in our modified [zip](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/Dassl.pytorch.zip) for SAR single-channel amplitude images. Then, you can run our [MIM_finetune.sh](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/finetune/MIM_finetune.sh) and [MIM_linear.sh](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/finetune/MIM_linear.sh) for evaluations.
 
 ## Acknowledgement
 
 We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE)) and pubilc SAR datasets ([MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR), [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset), [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/), [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public), [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar),  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301), and [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)).  Their selfless contributions and dedication have greatly facilitated and promoted research in this field.
-
 
 ## Statement
 
