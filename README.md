@@ -66,7 +66,7 @@ Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.p
 
 ## Acknowledgement
 
-Many thanks to the research [LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE), as well as pubilc SAR datasets [MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR), [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset), [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/), [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public), [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar),  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301), and [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD).
+We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE)) and pubilc SAR datasets ([MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR), [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset), [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/), [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public), [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar),  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301), and [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)).
 
 
 ## Statement
