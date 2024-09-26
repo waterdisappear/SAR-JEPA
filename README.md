@@ -59,11 +59,11 @@ SAR-ACD 设置为随机切分作为训练集和测试集。
 
 ## Pre-training
 
-Our code is based on [LoMaR](https://github.com/junchen14/LoMaR) with [MAE](https://github.com/facebookresearch/mae) and [MaskFeat](https://github.com/open-mmlab/mmselfsup/blob/0.x/configs/selfsup/maskfeat/README.md), and its enviroment is follow LoMaR.
+Our code is based on [LoMaR](https://github.com/junchen14/LoMaR), [MAE](https://github.com/facebookresearch/mae), [MaskFeat](https://github.com/open-mmlab/mmselfsup/blob/0.x/configs/selfsup/maskfeat/README.md), and its enviroment is follow LoMaR.
 
 * This repo is based on [`timm==0.3.2`](https://github.com/rwightman/pytorch-image-models), for which a [fix](https://github.com/rwightman/pytorch-image-models/issues/420#issuecomment-776459842) is needed to work with PyTorch 1.8.1+.
 
-* The relative position encoding is modeled by following [iRPE](https://github.com/microsoft/Cream/tree/main/iRPE). To enable the iRPE with CUDA supported. Of curese, irpe can run without build.  
+* The relative position encoding is modeled by following [iRPE](https://github.com/microsoft/Cream/tree/main/iRPE). To enable the iRPE with CUDA supported. Of curese, irpe can run without build and slower speed.  
 
 ```
 cd rpe_ops/
