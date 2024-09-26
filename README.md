@@ -87,7 +87,7 @@ Our main changes are in the [model_lomar.py](https://github.com/waterdisappear/S
 ```
 ## Fine-tuning with pre-trained checkpoints
 
-Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). You may need to installate this and use our modified tools.py and transforms.py for SAR images. You can run MIM_finetune.sh and MIM_linear.sh.
+Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). You may need to installate this and use our modified tools.py and transforms.py in [zip](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/Dassl.pytorch.zip) for SAR images. You can run MIM_finetune.sh and MIM_linear.sh.
 
 
 ## Acknowledgement
