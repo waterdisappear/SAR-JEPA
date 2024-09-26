@@ -74,7 +74,7 @@ For pre-training with default setting
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3  python -m torch.distributed.launch --nproc_per_node=4 --master_port=25642  main_pretrain.py --data_path ${IMAGENET_DIR}
 ```
-Our main changes are in the model_lomar.py
+Our main changes are in the [model_lomar.py](https://github.com/waterdisappear/SAR-JEPA/blob/main/Pretraining/models_lomar.py)
 ```
         self.sarfeature1 = GF(nbins=self.nbins,pool=self.cell_sz,kensize=5,
                                   img_size=self.img_size,patch_size=self.patch_size)
