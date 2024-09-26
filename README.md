@@ -85,6 +85,12 @@ Our main changes are in the [model_lomar.py](https://github.com/waterdisappear/S
         self.sarfeature4 = GF(nbins=self.nbins,pool=self.cell_sz,kensize=17,
                                   img_size=self.img_size,patch_size=self.patch_size)
 ```
+
+Here are the pre-training weights we obtained using different methods.
+
+以下是我们利用不同方法得到的预训练权重
+
+
 ## Fine-tuning with pre-trained checkpoints
 
 Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). You need to install this and use our modified ''Dassl.pytorch\dassl\utils\tools.py'' and ''Dassl.pytorch\dassl\data\transforms\transforms.py'' in our modified [zip](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/Dassl.pytorch.zip) for SAR single-channel amplitude images. Then, you can run our [MIM_finetune.sh](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/finetune/MIM_finetune.sh) and [MIM_linear.sh](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/finetune/MIM_linear.sh) for evaluations.
