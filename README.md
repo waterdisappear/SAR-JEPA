@@ -88,7 +88,7 @@ Our main changes are in the [model_lomar.py](https://github.com/waterdisappear/S
 
 Here are the pre-training weights we obtained using different methods.
 
-以下是我们利用不同方法得到的预训练权重
+以下是我们利用不同方法得到的预训练权重。
 
 
 ## Fine-tuning with pre-trained checkpoints
