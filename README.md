@@ -3,6 +3,16 @@
 <h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Tianpeng Liu (刘天鹏), Yuenan Hou (侯跃南), Yuxuan Li (李宇轩), Yongxiang Liu (刘永祥), and Li Liu (刘丽) </em></h5>
 
 <p align="center">
+  <a href="#Introduction">Introduction</a> |
+  <a href="#Dataset">Dataset</a> |
+  <a href="#Pre-training">Pre-training</a> |
+  <a href="#Fine-tuning with pre-trained checkpoints">Fine-tuning</a> |
+  <a href="#Acknowledgement">Acknowledgement</a> |
+  <a href="#Statement">Statement</a>
+</p >
+
+<p align="center">
+ <a href="https://www.sciencedirect.com/science/article/pii/S0924271624003514"><img src="https://img.shields.io/badge/Paper-ISPRS%20Jounal-orange"></a>
 <a href="https://arxiv.org/abs/2311.15153"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
 </p>
 
@@ -11,6 +21,8 @@
 In the process of being updated (2024.9.22~2024.9.30) to enhance readability and usefulness.
 
 正在更新中（2024.9.22~2024.9.30）以增强可读性和实用性
+
+Here is my share link in [ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271624003514?dgcid=author)
 
 These are codes and weights of the paper：
 
@@ -66,7 +78,7 @@ Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.p
 
 ## Acknowledgement
 
-We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE)) and pubilc SAR datasets ([MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR), [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset), [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/), [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public), [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar),  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301), and [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)).
+We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE)) and pubilc SAR datasets ([MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR), [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset), [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/), [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public), [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar),  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301), and [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)).  Their selfless contributions and dedication have greatly facilitated and promoted research in this field.
 
 
 ## Statement
@@ -74,7 +86,6 @@ We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen1
 - This project is released under the [CC BY-NC 4.0](LICENSE).
 - Any questions please contact us at lwj2150508321@sina.com. 
 - If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
-- Here is my share link in [ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271624003514?dgcid=author)
 
 ```
 @article{li2024predicting,
