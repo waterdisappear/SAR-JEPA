@@ -72,7 +72,7 @@ Many thanks to the research [LoMaR](https://github.com/junchen14/LoMaR), [MaskFe
 
 This project is strictly forbidden for any commercial purpose. Any questions please contact us at lwj2150508321@sina.com. 
 If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
-
+https://www.sciencedirect.com/science/article/pii/S0924271624003514?dgcid=author
 ```
 @article{li2024predicting,
 title = {Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture},
