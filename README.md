@@ -104,6 +104,23 @@ Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.p
 
 我们的 few-shot 学习基于 [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch)。您需要安装并使用我们为 SAR 单通道振幅图像修改过的[zip](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/Dassl.pytorch.zip)中的''Dassl.pytorch\dassl\utils\tools.py'' 和''Dassl.pytorch\dassl\data\transforms\transforms.py'' 。然后，您可以运行我们的 [MIM_finetune.sh](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/finetune/MIM_finetune.sh) 和 [MIM_linear.sh](https://github.com/waterdisappear/SAR-JEPA/blob/main/few_shot_classification/finetune/MIM_linear.sh) 进行评估。
 
+<figure>
+<div align="center">
+<img src=example/fig_training_curve.png width="90%">
+</div>
+</figure>
+
+You can visualise the attention distance using the code in [plt_attention_distance](plt_attention_distance)
+
+你可以利用[plt_attention_distance](plt_attention_distance)中的代码进行注意力距离的可视化
+
+<figure>
+<div align="center">
+<img src=example/attention_distance.png width="90%">
+</div>
+</figure>
+
+
 ## Acknowledgement
 
 We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [I-JEPA](https://github.com/facebookresearch/ijepa), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE)) and pubilc SAR datasets ([MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR), [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset), [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/), [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public), [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar),  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301), and [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD)).  Their selfless contributions and dedication have greatly facilitated and promoted research in this field.
