@@ -66,23 +66,27 @@ Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.p
 
 ## Acknowledgement
 
-Many thanks to the research [LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE).
+Many thanks to the research [LoMaR](https://github.com/junchen14/LoMaR), [MaskFeat](https://github.com/facebookresearch/SlowFast/blob/main/projects/maskfeat/README.md), [MAE](https://github.com/facebookresearch/mae), [FG-MAE](https://github.com/zhu-xlab/FGMAE), and [Dassl](https://github.com/zhu-xlab/FGMAE), as well as pubilc SAR datasets [MSAR](https://radars.ac.cn/web/data/getData?dataType=MSAR), [SAR-Ship](https://github.com/CAESAR-Radi/SAR-Ship-Dataset), [SARSim](https://ieeexplore.ieee.org/abstract/document/7968358/), [SAMPLE](https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public), [MSTAR](https://www.sdms.afrl.af.mil/index.php?collection=mstar),  [FUSAR-Ship](https://ieeexplore.ieee.org/abstract/document/9893301), and [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD).
+
 
 ## Statement
 
-This project is strictly forbidden for any commercial purpose. Any questions please contact us at lwj2150508321@sina.com. 
-If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
-https://www.sciencedirect.com/science/article/pii/S0924271624003514?dgcid=author
+- This project is released under the [CC BY-NC 4.0](LICENSE).
+- Any questions please contact us at lwj2150508321@sina.com. 
+- If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
+- Here is my share link in [ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271624003514?dgcid=author)
+
 ```
 @article{li2024predicting,
-title = {Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture},
-journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
-volume = {218},
-pages = {326-338},
-year = {2024},
-issn = {0924-2716},
-doi = {https://doi.org/10.1016/j.isprsjprs.2024.09.013},
-url = {https://www.sciencedirect.com/science/article/pii/S0924271624003514},
-author = {Weijie Li and Wei Yang and Tianpeng Liu and Yuenan Hou and Yuxuan Li and Zhen Liu and Yongxiang Liu and Li Liu},
+  title = {Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture},
+  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume = {218},
+  pages = {326-338},
+  year = {2024},
+  issn = {0924-2716},
+  doi = {https://doi.org/10.1016/j.isprsjprs.2024.09.013},
+  url = {https://www.sciencedirect.com/science/article/pii/S0924271624003514},
+  author = {Li, Weijie and Yang, Wei and Liu, Tianpeng and Hou, Yuenan and Li, Yuxuan and Liu, Zhen and Liu, Yongxiang and Liu, Li},
 }
 ```
+
