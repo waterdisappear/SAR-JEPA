@@ -106,7 +106,7 @@ Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.p
 
 <figure>
 <div align="center">
-<img src=example/fig_training_curve.png width="90%">
+<img src=example/fig_training_curve.png width="60%">
 </div>
 </figure>
 
