@@ -116,7 +116,7 @@ You can visualise the attention distance using the code in [plt_attention_distan
 
 <figure>
 <div align="center">
-<img src=example/attention_distance.png width="90%">
+<img src=example/attention_distance.png width="60%">
 </div>
 </figure>
 
