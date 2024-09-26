@@ -74,11 +74,15 @@ This project is strictly forbidden for any commercial purpose. Any questions ple
 If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
 ```
-@article{li2023predicting,
-  title={Predicting Gradient is Better: Exploring Self-Supervised Learning for {SAR} {ATR} with a Joint-Embedding Predictive Architecture },
-  author={Li, Weijie and Wei, Yang and Liu, Tianpeng and Hou, Yuenan and Liu, Yongxiang and Liu, Li},
-  journal={arXiv preprint},
-  url={https://arxiv.org/abs/2311.15153},
-  year={2024}
+@article{li2024predicting,
+title = {Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {218},
+pages = {326-338},
+year = {2024},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2024.09.013},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271624003514},
+author = {Weijie Li and Wei Yang and Tianpeng Liu and Yuenan Hou and Yuxuan Li and Zhen Liu and Yongxiang Liu and Li Liu},
 }
 ```
