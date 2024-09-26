@@ -106,7 +106,7 @@ Our few-shot learning is based on [Dassl](https://github.com/KaiyangZhou/Dassl.p
 
 <figure>
 <div align="center">
-<img src=example/fig_training_curve.png width="60%">
+<img src=example/fig_training_curve.png width="50%">
 </div>
 </figure>
 
@@ -116,7 +116,7 @@ You can visualise the attention distance using the code in [plt_attention_distan
 
 <figure>
 <div align="center">
-<img src=example/attention_distance.png width="60%">
+<img src=example/attention_distance.png width="75%">
 </div>
 </figure>
 
