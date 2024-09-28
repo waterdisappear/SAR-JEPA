@@ -15,6 +15,7 @@
 <a href="https://www.sciencedirect.com/science/article/pii/S0924271624003514"><img src="https://img.shields.io/badge/Paper-ISPRS%20Journal-orange"></a>
 <a href="https://arxiv.org/abs/2311.15153"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
 <a href="https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8"><img src="https://img.shields.io/badge/Checkpoint-BaiduYun-blue"></a>
+<a href="https://www.kaggle.com/models/liweijie19/sar-jepa"><img src="https://img.shields.io/badge/Checkpoint-Kaggle-blue"></a>  
 </p>
 
 ## Introduction
