@@ -50,13 +50,13 @@ You can cite the above dataset paper and download the required datasets directly
 The first four datasets are used as a pre-training set, and the next three are vehicle, ship, and aircraft datasets for fine-tuning the classification task. 
 The MSTAR setting follows our previous [paper](https://ieeexplore.ieee.org/document/10283916).
 The FUSAR-Ship setting follows the [paper](https://ieeexplore.ieee.org/abstract/document/9893301).
-The SAR-ACD is randomly split as training and test sets.
+The SAR-ACD is randomly split as training and test sets with 5 type (A220, A330, ARJ21, Boeing737, and Boeing787).
 
 您可以引用上述数据集论文，并从我们的 [百度云](https://pan.baidu.com/s/14sRPSCygTKMelSy4ZkqRzw?pwd=jeq8) 下载所需的数据集。
 前四个数据集作为预训练集，后面三个分别为车辆、舰船和飞机数据集用于分类任务微调。
 MSTAR 设置沿用了我们之前的[论文](https://ieeexplore.ieee.org/document/10283916)。
 FUSAR-Ship 数据集的设置遵循[论文](https://ieeexplore.ieee.org/abstract/document/9893301)。
-SAR-ACD 设置为随机切分作为训练集和测试集。
+SAR-ACD 设置为随机切分作为训练集和测试集，并且使用了5种型号（A220、A330、ARJ21、Boeing737和Boeing787）。
 
 ## Pre-training
 
