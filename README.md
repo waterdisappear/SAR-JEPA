@@ -32,6 +32,7 @@ If you find our work is useful, please give us 🌟 in GitHub and cite our paper
   url = {https://www.sciencedirect.com/science/article/pii/S0924271624003514},
   author = {Li, Weijie and Yang, Wei and Liu, Tianpeng and Hou, Yuenan and Li, Yuxuan and Liu, Zhen and Liu, Yongxiang and Liu, Li},
 }
+```
 
 ## Introduction
 
@@ -148,5 +149,4 @@ We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen1
 - This project is released under the [CC BY-NC 4.0](LICENSE).
 - Any questions please contact us at lwj2150508321@sina.com. 
 
-```
 
