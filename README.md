@@ -18,21 +18,7 @@
 <a href="https://www.kaggle.com/models/liweijie19/sar-jepa"><img src="https://img.shields.io/badge/Checkpoint-Kaggle-blue"></a>  
 </p>
 
-If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
-```
-@article{li2024predicting,
-  title = {Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture},
-  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume = {218},
-  pages = {326-338},
-  year = {2024},
-  issn = {0924-2716},
-  doi = {https://doi.org/10.1016/j.isprsjprs.2024.09.013},
-  url = {https://www.sciencedirect.com/science/article/pii/S0924271624003514},
-  author = {Li, Weijie and Yang, Wei and Liu, Tianpeng and Hou, Yuenan and Li, Yuxuan and Liu, Zhen and Liu, Yongxiang and Liu, Li},
-}
-```
 
 ## Introduction
 
@@ -148,5 +134,18 @@ We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen1
 
 - This project is released under the [CC BY-NC 4.0](LICENSE).
 - Any questions please contact us at lwj2150508321@sina.com. 
+- If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
-
+```
+@article{li2024predicting,
+  title = {Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture},
+  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume = {218},
+  pages = {326-338},
+  year = {2024},
+  issn = {0924-2716},
+  doi = {https://doi.org/10.1016/j.isprsjprs.2024.09.013},
+  url = {https://www.sciencedirect.com/science/article/pii/S0924271624003514},
+  author = {Li, Weijie and Yang, Wei and Liu, Tianpeng and Hou, Yuenan and Li, Yuxuan and Liu, Zhen and Liu, Yongxiang and Liu, Li},
+}
+```
