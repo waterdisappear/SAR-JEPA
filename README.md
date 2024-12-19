@@ -137,6 +137,9 @@ We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen1
 - Any questions please contact us at lwj2150508321@sina.com. 
 - If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
+- 本项目采用[CC BY-NC 4.0](LICENSE)协议发布。
+- 如有任何问题，请通过 lwj2150508321@sina.com 联系我们。
+- 如果您觉得我们的工作有价值，请在 GitHub 上给我们 🌟 并按以下 BibTex 格式引用我们的论文：
 ```
 @article{li2024predicting,
   title = {Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture},
@@ -148,5 +151,13 @@ We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen1
   doi = {https://doi.org/10.1016/j.isprsjprs.2024.09.013},
   url = {https://www.sciencedirect.com/science/article/pii/S0924271624003514},
   author = {Li, Weijie and Yang, Wei and Liu, Tianpeng and Hou, Yuenan and Li, Yuxuan and Liu, Zhen and Liu, Yongxiang and Liu, Li},
+}
+
+@article{li2024saratr,
+  title={SARATR-X: Towards Building A Foundation Model for SAR Target Recognition},
+  author={Li, Weijie and Yang, Wei and Hou, Yuenan and Liu, Li and Liu, Yongxiang and Li, Xiang},
+  journal={arXiv preprint},
+  url={https://arxiv.org/abs/2405.09365},
+  year={2024}
 }
 ```
