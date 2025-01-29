@@ -153,11 +153,14 @@ We extend our deepest gratitude to research ([LoMaR](https://github.com/junchen1
   author = {Li, Weijie and Yang, Wei and Liu, Tianpeng and Hou, Yuenan and Li, Yuxuan and Liu, Zhen and Liu, Yongxiang and Liu, Li},
 }
 
-@article{li2024saratr,
-  title={SARATR-X: Towards Building A Foundation Model for SAR Target Recognition},
+@article{LiSARATRX25,
   author={Li, Weijie and Yang, Wei and Hou, Yuenan and Liu, Li and Liu, Yongxiang and Li, Xiang},
-  journal={arXiv preprint},
-  url={https://arxiv.org/abs/2405.09365},
-  year={2024}
+  journal={IEEE Transactions on Image Processing}, 
+  title={SARATR-X: Towards Building A Foundation Model for SAR Target Recognition}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-16},
+  doi={10.1109/TIP.2025.3531988}
 }
 ```
