@@ -25,7 +25,11 @@
 
 This is the official repository for the paper “Predicting Gradient is Better: Exploring Self-Supervised Learning for SAR ATR with a Joint-Embedding Predictive Architecture”, and here is our share link in [ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271624003514?dgcid=author). Inspired by [JEPA](https://arxiv.org/abs/2301.08243), we center on self-supervised learning in a special feature rather than the original pixel space. This change is very effective in SAR images, where pixel values are disturbed by speckle noise. Besides, information compression is realized for the original pixels, improving learning efficiency. After introducing JEPA to Earth observation, [AnySat](https://github.com/gastruc/AnySat/blob/main/README.md) use the JEPA architecture in multimodality to extract common semantic information. 
 
+If you find our work is useful, please give us a star 🌟 in GitHub and cite our paper in the BibTex format at the end.
+
 这里是论文 “Predicting Gradient is Better: Exploring Self-Supervised Learning for SAR ATR with a Joint-Embedding Predictive Architecture (预测梯度会更好：利用联合编码预测架构探索SAR ATR的自监督学习) ”的代码库，而论文的分享链接为[ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271624003514?dgcid=author). 受 [JEPA](https://arxiv.org/abs/2301.08243) 的启发，我们将重点放在一个特殊的特征空间而非原始像素空间的自监督学习上。这种做法在合成孔径雷达图像中非常有效，因为像素值会受到斑点噪声的干扰。此外，还实现了对原始像素的信息压缩，提高了学习效率。在我们将 JEPA 引入地球观测之后，[AnySat](https://github.com/gastruc/AnySat/blob/main/README.md) 在多模态中使用 JEPA 架构来提取共同语义信息。
+
+如果您觉得我们的工作有价值，请在 GitHub 上给我们个星星 🌟 并按页面最后的 BibTex 格式引用我们的论文。
 
 <figure>
 <div align="center">
